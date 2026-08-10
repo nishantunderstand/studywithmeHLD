@@ -1,4 +1,3 @@
-
 Session-Based and Token-Based [[Authentication]] 
 https://www.instagram.com/p/DbpVnW1hy9M/
 
@@ -34,17 +33,10 @@ Idempotency key, Double Payment
 PATH Case 1 : Value Save , case 2 Value Increment 
 https://www.instagram.com/p/DbXSkYuhuY2/
 
-
-[[Redis]] 
-https://www.instagram.com/p/DauLDv9Bsc4/
-
-[[Redis]] vs Memcached
-https://www.instagram.com/p/DaxfGAuhKzB/
-
 Access vs Refresh [[Token]]
 https://www.instagram.com/p/DbyBzSfTDqT/
 
-[[APIGateway]] vs Reverse Proxy
+Working of NGINX [[APIGateway]] vs Reverse [[Proxy]] 
 Tradeoff : Server Hidden
 https://www.instagram.com/p/DbvIZY4xRAQ/
 
@@ -74,28 +66,6 @@ HOSTNAME
 ENVIRONMENT VARIABLE 
 https://www.instagram.com/p/DamfDmthK8T/
 
-[[Cache]] Invalidation vs Cache Stampede vs Cache Warming
-https://www.instagram.com/p/DaiNiicBhsj/
-
-[[Cache]] Aside Pattern vs Read Through vs Write Through Cache
-Banking Application / No Stale Data : Write Through
-
-Read Through vs Write Through [[Cache]]
-Cache Miss 
-DB vs Cache , Which is updated first ?
-How to decide ?
-DB + Cache Management
-https://www.instagram.com/p/DacLvBEBkq-/
-
-
-[[Cache]] Aside Pattern												
-Pro , Cons , Stale Data								
-https://www.instagram.com/p/DaW1bKzB-OR/
-
-[[Cache ]]
-Cache Hit, Cache Miss, Cache Hit Ratio
-https://www.instagram.com/p/DaU2LHuhjXA/
-
 [[Scalability]], [[Availability]] , [[Reliability]]
 Scalability
 Availability : Replication, redundant servers, and automatic failover.
@@ -114,36 +84,6 @@ https://www.instagram.com/p/DaHttXXBDZV/
 Why [[CapacityEstimation]] 
 https://www.instagram.com/p/DaCVtu2Bmhv/
 
-
-[[Database]] Replication vs Sharding
-Replication : Read Data
-Sharding : Split Data
-https://www.instagram.com/satyam.scripts/
-
-[[Database]] Hash-Based Sharding and Range-Based Sharding
-Hot Partitions
-https://www.instagram.com/p/DZE5iWxh0ub/
-
-[[Database]] Sharding
-Shards
-Why Sharding? Data Backup , Smaller Index , Faster Write
-Read
-Write 
-https://www.instagram.com/reel/DZCJ2XVhAXr/
-
-[[Database]] Replication Lag
-Sync vs Async Replication
-Failover vs Split Brain
-https://www.instagram.com/reel/DY_hXYXBTBB/
-
-
-[[Database]] Replication
-Read, Operation +  Write, Insert, Delete Operation
-Master-Slave Architecture
-Synchronous vs Asynchronous replication 
-https://www.instagram.com/reel/DY7M28ghL5N/
-
-
 Normalization vs Denormalization
 Redundancy
 Clean vs Unclean Data
@@ -156,23 +96,6 @@ Pro & Cons Normalization , Denormalization
 Pro & Cons Normalization
 https://www.instagram.com/reel/DY1avEoBoN-/
 
-[[Database]] Clustered vs Non-Clustered [[Indexing]]
-Primary Key is By Default Clustered index
-Clustered Index : physically sorts and stores table data on disk
-Only one Clustered Index is possible per table
-Non-Clustered Index
-B-Tree structure index value with pointers to actual row addresses
-Multiple Non-Clustered Indexes can exist on one table.
-https://www.instagram.com/p/DYz4Y3ph4MH/
-
-[[Database]] [[Indexing]]
-Why 
-Tradeoff
-Read vs Write Performance 
-B-Tree
-Clustered vs Non-Clustered Indexes
-https://www.instagram.com/p/DYwbevlhHrk/
-
 API Versioning 
 4 approaches: URL Path, query params, custom headers, content negotiation.
 Breaking Change
@@ -183,10 +106,47 @@ Statefull vs Stateless Service
 Statefull vs Stateless Architecture
 Statefull vs Stateless API
 
-ReverseProxy vs APIGateway
+Reverse [[Proxy]] vs [[APIGateway]]
 APIGateway is a type of ReverseProxy vice-versa not valid
 APIGateway  : Microservice architectures , Request aggregation, circuit breaking, API versioning, and analytics
 https://www.instagram.com/p/DYo6N40BqqU/
 
 Latency vs Throughput
 https://www.instagram.com/p/DYmK29jBAGV/
+
+
+[[Database]] Horizontal vs Vertical Scaling
+Horizontal Scaling : Single Point Of Failure
+Vertical Scaling  : LoadBalancer, Data Consistency
+https://www.instagram.com/p/DYj1lYQhvpp/
+
+
+CDN Content Delivery Network
+Edge Server or Point of Presence
+Cache Hit Cache Miss
+Origin Server 
+DDoS Attack
+IP Address
+Low Latency 
+High Availabily
+Cloudfront		
+https://www.instagram.com/p/DYhTLGMpsAx/
+
+TCP vs UDP
+OSI Model
+3 Way Handshake + ACK
+TCP : Accuracy Over Speed , Reliable
+UDP : Speed Over Accuracy , Fast
+Connection Oriented vs Connectionless
+https://www.instagram.com/p/DYZkxNLT5oC/
+
+Forward vs Reverse [[Proxy]]
+Forward Proxy : Client Side
+Client Know
+hides the client's identity
+privacy and bypassing restrictions
+Reverse Proxy : Server Side
+Client Doesn't Know
+load balancing, SSL termination, caching, and DDoS protection
+Nginx
+https://www.instagram.com/p/DYW_7F6zCme/
