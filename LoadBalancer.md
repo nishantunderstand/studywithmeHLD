@@ -1,7 +1,5 @@
-
 [[LoadBalancer]], Types , Why 
 https://www.instagram.com/p/Dazuq4rhE9b/
-
 
 [[LoadBalancer]] Algorithm
 Round Robin , Least Connections , Weighted Load Balancing
