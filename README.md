@@ -7,10 +7,10 @@ MOC (Map of Content):
 
 [[README]]
 [[Instagram DSA]]
-[[Instagram Spring Boot]]
+[[Spring Boot]]
 [[Instagram SQL]]
-[[Instagram HLD Foundation]]
-[[Instagram HLD Question]]
+[[HLD Foundation]]
+[[HLD Question]]
 [[LoadBalancer]]
 [[RateLimiting]]
 [[S3-Working-Explained]]
