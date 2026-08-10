@@ -1,4 +1,5 @@
-[[Indexing]]
+[[Database]]
+
 Why 
 Tradeoff
 Read vs Write Performance 

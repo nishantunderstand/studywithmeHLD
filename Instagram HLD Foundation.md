@@ -150,3 +150,25 @@ Client Doesn't Know
 load balancing, SSL termination, caching, and DDoS protection
 Nginx
 https://www.instagram.com/p/DYW_7F6zCme/
+
+HTTP vs WebSocket
+HTTP
+Polling 
+WebSocket : 2 Ways Communincation 
+Live Location, Google Docs
+https://www.instagram.com/p/DYR2ZJRJsow/
+
+Polling vs LongPolling vs SSE (Server-Sent Events)
+Polling : Buring Bandwidth , Fixed Intervals
+LongPolling 
+SSE : Light Weight
+Live cricket scores, stock tickers, and notification systems 
+Communication : One-Directional or Bi-Directional
+https://www.instagram.com/p/DYPRi6auPKg/
+
+DNS 
+https://www.instagram.com/p/DYNLVt2hASh/
+DNS translates domain names into IP addresses. 
+Like a PhoneBook
+DNS Spoofing attacks 
+
