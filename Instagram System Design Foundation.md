@@ -49,11 +49,9 @@ Tradeoff : Server Hidden
 https://www.instagram.com/p/DbvIZY4xRAQ/
 
 [[S3]] Database Uploading
-Pre-Signed URL 
-Metadata
-Database vs Blob Storage
-
+Pre-Signed URL , Metadata , Database vs Blob Storage
 https://www.instagram.com/p/DbVYgAvR80D/
+[[S3-Working-Explained]]
 
 Paper Draw | Saturday, August 8, 2026 10:03:20 PM | Not Working | Try Later
 
