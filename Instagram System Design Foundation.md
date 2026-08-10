@@ -38,23 +38,24 @@ https://www.instagram.com/p/DbXSkYuhuY2/
 [[Redis]] 
 https://www.instagram.com/p/DauLDv9Bsc4/
 
-[[Redis]] vs MemeCached
+[[Redis]] vs Memcached
 https://www.instagram.com/p/DaxfGAuhKzB/
 
 Access vs Refresh [[Token]]
 https://www.instagram.com/p/DbyBzSfTDqT/
 
 [[APIGateway]] vs Reverse Proxy
-TradeOff : Server Hidden
+Tradeoff : Server Hidden
 https://www.instagram.com/p/DbvIZY4xRAQ/
 
 [[S3]] Database Uploading
 Pre-Signed URL 
-MetaData
+Metadata
 Database vs Blob Storage
+
 https://www.instagram.com/p/DbVYgAvR80D/
 
-PaperDraw | Saturday, August 8, 2026 10:03:20 PM | Not Working | Try Later
+Paper Draw | Saturday, August 8, 2026 10:03:20 PM | Not Working | Try Later
 
 CI/CD 
 [[Jenkins]] | Docker
