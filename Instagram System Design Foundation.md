@@ -1,5 +1,3 @@
-L4 vs L7 [[LoadBalancer]]
-https://www.instagram.com/p/Da4eQb5Bphk/
 
 Session-Based and Token-Based [[Authentication]] 
 https://www.instagram.com/p/DbpVnW1hy9M/
@@ -36,12 +34,6 @@ Idempotency key, Double Payment
 PATH Case 1 : Value Save , case 2 Value Increment 
 https://www.instagram.com/p/DbXSkYuhuY2/
 
-[[LoadBalancer]] Algorithm
-Round Robin , Least Connections , Weighted Load Balancing
-https://www.instagram.com/p/Da1uAYbh70F/
-
-[[LoadBalancer]], Types , Why 
-https://www.instagram.com/p/Dazuq4rhE9b/
 
 [[Redis]] 
 https://www.instagram.com/p/DauLDv9Bsc4/
