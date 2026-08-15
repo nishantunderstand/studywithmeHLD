@@ -1,3 +1,9 @@
+
+Why Redis is so Fast 
+https://www.instagram.com/reel/Dbx9CHXzyya/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==&igsi=NTc4MTIwNjQ2YQ==
+
+
+
 Redis Stream vs KAFKA 
 EDA Event Driven Architecture													 
 Event logs
@@ -37,3 +43,24 @@ Block Storage → Amazon EBS
 
 🚀 How does a Kubernetes Pod securely access an Amazon S3 Bucket? 🤔
 [Instagram](https://www.instagram.com/p/DbIinvXoMrr/)
+
+
+REST vs RPC
+https://www.instagram.com/reel/Db-pcHGBd91/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==&igsi=NTc4MTIwNjQ2YQ==
+
+
+DevOps Production Issue
+https://www.instagram.com/reel/Db8QBM-Iw6m/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==&igsi=NTc4MTIwNjQ2YQ==
+
+
+
+Rate Limiting 
+https://www.instagram.com/reel/Db-Vop8CiIa/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==&igsi=NTc4MTIwNjQ2YQ==
+
+
+Java Production Issue 
+https://www.instagram.com/p/DbkAZ5wgK1f/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==&igsi=NTc4MTIwNjQ2YQ==
+
+https://drive.google.com/file/d/1OQtp7rvY2uxuMYdWeQuVYsCbTQenqU8c/view
+Visual VM
+https://www.youtube.com/watch?v=AHLkbqcVLvY
