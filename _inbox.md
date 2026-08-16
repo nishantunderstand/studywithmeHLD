@@ -1,4 +1,9 @@
 
+Thread
+
+https://www.instagram.com/reel/DZtDLXmyq09/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==&igsi=MzRlODBiNWFlZA==
+
+
 Why Redis is so Fast 
 https://www.instagram.com/reel/Dbx9CHXzyya/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==&igsi=NTc4MTIwNjQ2YQ==
 
