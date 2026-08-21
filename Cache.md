@@ -1,3 +1,18 @@
+Cache 
+
+1. Application / ORM Cache
+	1. L1 Cache 
+		Session / Persistence Context
+	2. L2 Cache
+		Session Factory / Entity Manager Factory
+			Caffeine
+			Ehcache
+			Hazelcast
+2. Distributed Cache
+	Redis
+
+
+
 [[Redis]]
 
 [[Cache]] Invalidation vs Cache Stampede vs Cache Warming
