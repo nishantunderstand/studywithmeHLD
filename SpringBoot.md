@@ -13,8 +13,6 @@ https://www.instagram.com/p/DXZLtw5jwOI/
 How to identify memory leak in spring boot?
 https://www.instagram.com/p/DV_CqCqk0B1/
 
-
-
 Profiling in spring boot 
 CPU 
 Log
