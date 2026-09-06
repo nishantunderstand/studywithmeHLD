@@ -7,18 +7,21 @@ Cache
 Cache vs Traditional DB
 What 
 Why 
+
+Cache Store 
 Cache Hit
 Cache Miss
 Cache Hit Ratio 
 Meaning 
 Significance
 Calculate 
+
 https://www.instagram.com/p/DaU2LHuhjXA/
 
 ---
 Types of Cache
 
-1. Application / ORM Cache
+1. Application / ORM Cache (Local)
 	1. L1 Cache 
 		Session / Persistence Context (Hibernate /JPA Terminology)
 		Single Session
@@ -30,7 +33,7 @@ Types of Cache
 			Caffeine
 			Ehcache
 			Hazelcast
-2. Distributed Cache
+2. Distributed Cache (Shared)
 	Redis
 
 ---
@@ -38,12 +41,6 @@ Hibernate L1 vs L2 Cache
 Hibernate vs Redis Cache
 
 ---
-
-Cache Invalidation vs Cache Stampede vs Cache Warming
-- Cache Invalidation 
-- Cache Stampede 
-- Cache Warming
-- https://www.instagram.com/p/DaiNiicBhsj/
 
 
 Cache Population Strategies
@@ -58,6 +55,9 @@ Cons
 Stale Data								
 https://www.instagram.com/p/DaW1bKzB-OR/
 
+Cache-Aside Race Conditions
+
+---
 
 Cache Aside Pattern 
 Read Through 
@@ -68,22 +68,7 @@ Which is updated first ?
 How to decide ?
 
 Banking Application / No Stale Data : Write Through
-
 https://www.instagram.com/p/DacLvBEBkq-/
-
-
-Cache Stampede / Thundering Herd / Dogpile effect
-
-TTL 
-Solution : 
-1. Request Coaleasing (Single Request)
-2. Cache Warming
-[Thundering Herd Problem - The Codergirlie](https://www.instagram.com/p/DW9D_PWkfsJ/)
-
-
-
----
-https://www.geeksforgeeks.org/system-design/cache-aside-pattern/
 
 ---
 
@@ -98,13 +83,25 @@ Which entry should be removed?
 **Expiration/TTL** → Entry becomes invalid after a certain time.
 
 
+---
 
-Cache-Aside Race Conditions
 
 
-Hot / popular key 
+
+----
+
+Cache Invalidation vs Cache Stampede vs Cache Warming
+- Cache Invalidation 
+- Cache Stampede / Thundering Herd / Dogpile effect 
+- Cache Warming
+- https://www.instagram.com/p/DaiNiicBhsj/
+
+
+
+Hot / Popular Key 
 1. One / Few Popular Key Expired : Cache Breakdown / Cache Stampde
 2. Multiple Popular Key Expired Simuatlentously : Cache Avalanche
+
 Solution :
 - Request Coalescing / single-flight
 - Distributed Lock
@@ -114,15 +111,19 @@ Solution :
 - TTL Jitter
 
 
-Cache Penetration  : Data does NOT exist
-- Negative Caching
-- Bloom Filter
-- Input Validation
-- Rate Limiting
+Cache Stampede / Thundering Herd / Dogpile effect
+
+Thundering Herd Problem
+https://www.instagram.com/reels/Db8YSsrzb3q/
 
 
-Cache Penetration vs Cache Breakdown/Stampede vs Cache Avalanche
 
+
+TTL 
+Solution : 
+1. Request Coaleasing (Single Request)
+2. Cache Warming
+[Thundering Herd Problem - The Codergirlie](https://www.instagram.com/p/DW9D_PWkfsJ/)
 
 Cache Avalanche
 Solution : 
@@ -134,4 +135,21 @@ Solution :
 6. Fallback
 
 What is Cache Avalanche? How different From Cache Stampede ?
+
+
+
+---
+
+Cache Penetration  : Data does NOT exist
+- Negative Caching
+- Bloom Filter
+- Input Validation
+- Rate Limiting
+
+
+Cache Penetration vs Cache Breakdown/Stampede vs Cache Avalanche
+
+---
+
+
 

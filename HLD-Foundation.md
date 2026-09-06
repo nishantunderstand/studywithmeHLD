@@ -60,7 +60,6 @@ Algorithm
 Fixed Window, Sliding Window, Token Bucket 
 
 
-
 [[Scalability]], [[Availability]] , [[Reliability]]
 Scalability
 Availability : Replication, redundant servers, and automatic failover.

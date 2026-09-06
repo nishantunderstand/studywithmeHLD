@@ -3,7 +3,6 @@
 ---
 [Redis Chai aur Code - YouTube](https://www.youtube.com/playlist?list=PLkravDUKJN0JWfllRfj0cEcTn2etynCdO)  : Only Lecture is needed
 
-
 Redis 
 https://www.instagram.com/p/DauLDv9Bsc4/
 
@@ -18,10 +17,27 @@ Why is Redis so fast?
 Why is Redis single-threaded?
 Redis vs (L1 , L2 Cache)
 
+---
+Why Redis is so Fast 
+RAM 
+Event Driven Networking 
+Serialized Execution
+One by One Excecution
+Redis Pipeline
+Locking Overhead 
+https://www.instagram.com/reels/Dbx9CHXzyya/
+
+RountTrip Computation
+
+What is Redis Pipeline? 
+If Heavy Computation 
 
 ---
 When to use Redis ?
-Redis Data Storage  : Key-Value 
+Redis Data Storage  : Key-Value
+
+---
+
 What are Redis Data Types?
 1. String
 2. HashMap
@@ -31,15 +47,25 @@ What are Redis Data Types?
 6. Max Element that can be Stored
 
 
-String  String : SET GET
-HashMap    Hashes : HMSET HGETALL
-List  List lpush/ lrange
-Set  RedisSet sadd / smemebers
-Ordered Set  SortedSet zadd ZRANGEBYSCORE
+
+|Data Type|Redis Name|Common Commands|Typical Use|
+|---|---|---|---|
+|**String**|String|`SET`, `GET`, `INCR`, `DECR`|Cache, counters, tokens|
+|**Hash**|Hash|`HSET`, `HGET`, `HGETALL`|Objects / key-value fields|
+|**List**|List|`LPUSH`, `RPUSH`, `LPOP`, `LRANGE`|Queues, recent items|
+|**Set**|Set|`SADD`, `SMEMBERS`, `SREM`|Unique values|
+|**Sorted Set**|Sorted Set / ZSet|`ZADD`, `ZRANGE`, `ZRANGEBYSCORE`|Ranking, leaderboard|
+|**Stream**|Stream|`XADD`, `XREAD`, `XGROUP`|Event streams|
+|**Bitmap**|Bitmap|`SETBIT`, `GETBIT`, `BITCOUNT`|Compact boolean/state data|
+|**HyperLogLog**|HyperLogLog|`PFADD`, `PFCOUNT`|Approximate unique-counting|
+|**Geospatial**|Geo|`GEOADD`, `GEOSEARCH`|Location/radius queries|
+
+
+
+
 Max Element 2^32-1
 Is it case sensitive ?
-Does it support Atomic Operation
-
+Does it support Atomic Operation ?
 
 
 ---
@@ -52,14 +78,13 @@ Redis UseCase
 5. Job Queue (Sending Email in Small Batch of 10 )
 6. Background Jobs
 
+
 Redis Persistence 
 RDB vs AOF
 It Depends Upon Configuration.
 1. RDB (Redis Data Backup)
 2. AOF (Append Only File)
 
-Thundering Herd Problem
-https://www.instagram.com/reel/Db8YSsrzb3q/?utm_source=ig_web_copy_link&igsi=NTc4MTIwNjQ2YQ==
 
 Redis LifeCycle 
 
@@ -68,14 +93,6 @@ Redis Eviction Policy
 - LFU Least Frequently Used
 - TTL
 - noeviction
-
-Redis UseCase
-1. Return Frequently Used Data
-2. Session Management 
-3. Rate Limiting 
-4. OTP
-5. Job Queue (Sending Email in Small Batch of 10 )
-6. Background Jobs
 
 
 What happens if Redis crashes?
@@ -144,11 +161,13 @@ https://www.instagram.com/p/DXrH10bCGdJ/
 
 ---
 What is Redis Pub/Sub? What is Pub/Sub ? Command ? Redis Pub/Sub vs Queue(KAFKA) ?
-What is Redis Pipeline?
+
 What is Redis Replication? Types of Replication ? Is it sufficient to handle failover ?
 Redis Sentinel ? Redis Sentinel vs Redis Cluster ? Single Point of Failure ? Vertical Scaling
 Redis Cluster ? Is it Successor of Redis Sentinel ? Horizontal Scaling
 Redis Distributed Lock
+
+---
 
 ---
 
@@ -193,7 +212,6 @@ Database Unique Constraint
 https://www.instagram.com/engineerinazure/reel/Dcd5XvkzTCt/
 
 
-
 TTL Expiry vs Eviction
 https://www.instagram.com/engineerinazure/reel/Db52XAXTqUp/
 
@@ -222,3 +240,20 @@ Redis Command :
 | Leaderboard         | ZADD          |
 | Production scanning | SCAN          |
 | Performance         | PIPELINE      |
+
+
+---
+Redis Stream vs KAFKA 
+EDA Event Driven Architecture													 
+Event logs
+Redis Stream
+Low latency matters 
+Real-time event processing
+KAFKA
+durable event storage 
+replay events 
+high-throughput event streaming
+[Redis vs KAFKA](https://www.instagram.com/p/DbTcxxZoi7e/)
+
+
+---

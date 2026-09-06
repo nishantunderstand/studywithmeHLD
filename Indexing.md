@@ -36,10 +36,13 @@ Does Primary Key always create Clustered Index?  SQL Server , MySQL , Oracle, Po
 https://www.instagram.com/p/DYwbevlhHrk/
 
 
+
 Clustered vs Non-Clustered Indexing
 Primary Key is By Default Clustered index
 Clustered Index : physically sorts and stores table data on disk
 Only one Clustered Index is possible per table
+
+
 
 Non-Clustered Index
 B-Tree structure index value with pointers to actual row addresses
