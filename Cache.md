@@ -1,4 +1,32 @@
 
+
+![[Pasted image 20260909114518.png]]
+
+ **locality of reference**,
+Types
+1. **Spatial Locality**
+2. **Temporal Locality:**
+
+
+
+
+## Cache Line Organization 🤔🤔🤔 
+The cache lines do not have a fixed address, allowing the cache to store data from various locations in memory.
+
+Types
+1. Fully Associated
+2. Direct Mapped
+3. Self Associated
+
+
+
+
+
+
+
+
+
+
 [[Redis]]
 
 ---
@@ -97,7 +125,6 @@ Cache Invalidation vs Cache Stampede vs Cache Warming
 - https://www.instagram.com/p/DaiNiicBhsj/
 
 
-
 Hot / Popular Key 
 1. One / Few Popular Key Expired : Cache Breakdown / Cache Stampde
 2. Multiple Popular Key Expired Simuatlentously : Cache Avalanche
@@ -115,8 +142,6 @@ Cache Stampede / Thundering Herd / Dogpile effect
 
 Thundering Herd Problem
 https://www.instagram.com/reels/Db8YSsrzb3q/
-
-
 
 
 TTL 

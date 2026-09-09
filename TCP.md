@@ -1,0 +1,29 @@
+
+Transmission Control Protocol/Internet Protocol(TCP/IP)
+
+How this is different from HTTPs ?
+
+
+How different From OSI model
+
+
+3 Way Handshake 🤔🤔🤔 
+
+
+![[TCP-Layer.png]]
+
+- Layer 1 — Physical
+- Layer 2 — Data Link
+	- MAC(Media Access Control)
+	- LLC(Logical Link Control)
+- Layer 3 — Network
+- Layer 4 — Transport (TCP)
+- Layer 5 — Session
+- Layer 6 — Presentation
+- Layer 7 — Application
+	- Protcols  Used in this layer
+		- HTTP
+		- DNS
+		- SMTP
+		- FTP
+		- TELNET

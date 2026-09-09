@@ -86,7 +86,7 @@ It Depends Upon Configuration.
 2. AOF (Append Only File)
 
 
-Redis LifeCycle 
+Redis LifeCycle ??
 
 Redis Eviction Policy
 - LRU Least Recently Used
@@ -173,7 +173,7 @@ Redis Distributed Lock
 
 
 https://www.instagram.com/reels/DcJQcuyRBDk/
-Redis Sentinel 
+Redis Sentinel  ??
 Async
 Replication Lag
 Primary & Replica
@@ -185,7 +185,7 @@ Enable Healthy Replica
 
 
 https://www.instagram.com/reels/DcOYfNczM50/
-More than Single Server 
+More than Single Server  ??
 Redis Cluster 
 Redis Node Sharde
 Hot Key
@@ -221,6 +221,7 @@ Analogy of Milk Expiry
 Lazy Expiration
 Active Expiration
 
+
 Cache Evicition Policy 
 Analogy of Fridge 
 
@@ -247,11 +248,11 @@ Redis Stream vs KAFKA
 EDA Event Driven Architecture													 
 Event logs
 Redis Stream
-Low latency matters 
+Low latency matters
 Real-time event processing
 KAFKA
-durable event storage 
-replay events 
+durable event storage
+replay events
 high-throughput event streaming
 [Redis vs KAFKA](https://www.instagram.com/p/DbTcxxZoi7e/)
 
