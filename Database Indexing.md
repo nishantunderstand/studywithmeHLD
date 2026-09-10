@@ -8,7 +8,7 @@ NoSQL Database
 Partition Key 
 
 
-![[Pasted image 20260909024521.png]]
+![[NoSQL-Types.png]]
 
 TODO : Working of SQL 
 How a SQL command Execute 🤔🤔🤔 

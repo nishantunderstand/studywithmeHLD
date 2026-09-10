@@ -1,6 +1,6 @@
 
 
-![[Pasted image 20260909114518.png]]
+![[Thread-InHiererary.png]]
 
  **locality of reference**,
 Types
@@ -178,3 +178,17 @@ Cache Penetration vs Cache Breakdown/Stampede vs Cache Avalanche
 
 
 
+
+
+Types of Cache 
+1. L1 Cache
+2. L2 Cache
+3. L3 Cache
+
+Transalation Lookaside Buffer
+
+OS :
+Page Cache
+FileSystem Cache
+
+Inode cache

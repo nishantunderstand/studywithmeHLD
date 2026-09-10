@@ -15,8 +15,6 @@ Roy Fielding
 Hyper Text Transfer Protocols
 
 
-
-
 Stateges of HTTP 
 ![[HTTP-Stages.png]]
 
@@ -47,3 +45,13 @@ Why Choose HTTPS Over HTTP?
 
 
 HTTP vs HTTPS
+
+
+
+
+
+HTTP is PlainText
+HTTPS Secured Version
+
+
+TLS  : Transport Layer Security

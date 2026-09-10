@@ -14,3 +14,26 @@ https://www.instagram.com/p/Da4eQb5Bphk/
 
 
 
+---
+https://www.youtube.com/watch?v=LQuuoHTyYz8
+Types of LoadBalancer 
+Hardware
+Software
+CloudBased
+
+
+Global Level LoadBalancer
+
+---
+https://www.youtube.com/watch?v=dBmxNsS3BGE
+
+Types of Load Balancer
+Dynamic 
+1. Least Connection
+2. Least Time
+
+Static
+1. RoundRobin
+	1. Weighted RoundRobin
+	2. Sticky RoundRobin
+2. Hash

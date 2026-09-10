@@ -1,7 +1,7 @@
 [[System Design Distributed System]]
 [[Scaling Horizontal Vertical]]
 [[Capacity Planning and Estimation]]
-[[HTTP and HTTPs Protocols]]
+[[HTTP and HTTPs Protocols HTTP & HTTPS]]
 [[TCP]]
 [[What happens when you enter google.com]]
 [[Relational Model in DBMS]]

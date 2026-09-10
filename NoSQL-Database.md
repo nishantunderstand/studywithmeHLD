@@ -23,7 +23,7 @@ DisAdvantages
 4. Finding a Specific Value is tough
 
 
-![[Pasted image 20260909114050.png]]
+![[Hashing-Consistent.png]]
 
 Cassandra Cluster
 
