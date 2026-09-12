@@ -1,19 +1,13 @@
 
 - [JobDecode Inbox](obsidian://open?vault=JobDecode&file=_inbox)
-- [StudyWithMeHLD](obsidian://open?vault=studywithmeHLD&file=_inbox)
+- [StudyWithMeHLD](obsidian://open?vault=studywithme_HLD&file=_inbox)
 - [DSA-Pattern](obsidian://open?vault=ObsidianDSA%20PatternBased&file=_inbox)
-
 
 
 ----
 
 Thread
 https://www.instagram.com/reel/DZtDLXmyq09/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==&igsi=MzRlODBiNWFlZA==
-
-
-
-
-
 
 
 
