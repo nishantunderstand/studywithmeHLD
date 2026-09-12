@@ -1,8 +1,3 @@
-YES I am testing 
-
-
-
-
 -----
 
 Rules 
