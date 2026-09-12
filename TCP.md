@@ -12,6 +12,6 @@ How different From OSI model
 [[OSI-Layer]]
 
 
-![[Pasted image 20260910000609.png]]
+![[TCP-IP 3 Way HandShake.png]]
 
 [TCP 3-Way Handshake: SYN, SYN-ACK, ACK Explained](https://blog.cloudmylab.com/tcp-ip-3-way-handshake)

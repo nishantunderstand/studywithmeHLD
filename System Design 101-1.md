@@ -1,5 +1,10 @@
+
+[[System Design 101-2]]
+
+---
+
 https://lnkd.in/p/dvjd5Ur3
-[[System-Design-101.png]]
+[[System-Design-101-By-Parmeshwar Metkar.png]]
 
 ---
 Here’s a practical System Design Roadmap:  
